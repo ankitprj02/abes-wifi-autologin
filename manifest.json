@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "ABES WiFi Auto Login",
+  "version": "1.1",
+  "description": "Saves credentials and auto-logins to the ABES WiFi portal.",
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://192.168.1.254/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://192.168.1.254/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}

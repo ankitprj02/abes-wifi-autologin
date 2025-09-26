@@ -1,0 +1,108 @@
+const _0xbde14b = _0xf793;
+(function (_0x107135, _0x2758ca) {
+  const _0x545d68 = _0xf793,
+    _0x20ad3e = _0x107135();
+  while (!![]) {
+    try {
+      const _0x1e81f9 =
+        (parseInt(_0x545d68(0x135)) / 0x1) *
+          (parseInt(_0x545d68(0x13d)) / 0x2) +
+        (parseInt(_0x545d68(0x13b)) / 0x3) *
+          (-parseInt(_0x545d68(0x13f)) / 0x4) +
+        parseInt(_0x545d68(0x13a)) / 0x5 +
+        -parseInt(_0x545d68(0x127)) / 0x6 +
+        (-parseInt(_0x545d68(0x128)) / 0x7) *
+          (parseInt(_0x545d68(0x12f)) / 0x8) +
+        parseInt(_0x545d68(0x129)) / 0x9 +
+        parseInt(_0x545d68(0x12b)) / 0xa;
+      if (_0x1e81f9 === _0x2758ca) break;
+      else _0x20ad3e["push"](_0x20ad3e["shift"]());
+    } catch (_0x2ba75a) {
+      _0x20ad3e["push"](_0x20ad3e["shift"]());
+    }
+  }
+})(_0x83ba, 0x65841),
+  document[_0xbde14b(0x131)](_0xbde14b(0x12d), function () {
+    const _0x266a6e = _0xbde14b,
+      _0xa52d = document[_0x266a6e(0x139)](_0x266a6e(0x12a)),
+      _0x1ecf38 = document["getElementById"](_0x266a6e(0x132)),
+      _0x25da72 = document[_0x266a6e(0x139)]("saveBtn"),
+      _0x2dc883 = document[_0x266a6e(0x139)]("loginBtn"),
+      _0x523d15 = document[_0x266a6e(0x139)](_0x266a6e(0x133));
+    chrome[_0x266a6e(0x140)][_0x266a6e(0x138)][_0x266a6e(0x134)](
+      [_0x266a6e(0x12a), _0x266a6e(0x132)],
+      function (_0x55ec28) {
+        const _0x1db13 = _0x266a6e;
+        _0x55ec28[_0x1db13(0x12a)] &&
+          (_0xa52d[_0x1db13(0x12e)] = _0x55ec28[_0x1db13(0x12a)]),
+          _0x55ec28[_0x1db13(0x132)] &&
+            (_0x1ecf38[_0x1db13(0x12e)] = _0x55ec28[_0x1db13(0x132)]);
+      }
+    ),
+      _0x25da72[_0x266a6e(0x131)](_0x266a6e(0x130), function () {
+        const _0x1af96a = _0x266a6e,
+          _0x58e985 = _0xa52d[_0x1af96a(0x12e)],
+          _0x14f5fd = _0x1ecf38["value"];
+        chrome["storage"]["local"]["set"](
+          { username: _0x58e985, password: _0x14f5fd },
+          function () {
+            const _0x3e3013 = _0x1af96a;
+            (_0x523d15["textContent"] = _0x3e3013(0x12c)),
+              setTimeout(() => {
+                const _0x5e7c29 = _0x3e3013;
+                _0x523d15[_0x5e7c29(0x13c)] = "";
+              }, 0x7d0);
+          }
+        );
+      }),
+      _0x2dc883[_0x266a6e(0x131)](_0x266a6e(0x130), function () {
+        const _0x92efcb = _0x266a6e,
+          _0x5c3891 = _0x92efcb(0x137);
+        chrome[_0x92efcb(0x136)][_0x92efcb(0x13e)]({ url: _0x5c3891 });
+      });
+  });
+function _0xf793(_0x211675, _0x3b452d) {
+  const _0x83baa7 = _0x83ba();
+  return (
+    (_0xf793 = function (_0xf7939a, _0x27b4b2) {
+      _0xf7939a = _0xf7939a - 0x127;
+      let _0x4c442a = _0x83baa7[_0xf7939a];
+      return _0x4c442a;
+    }),
+    _0xf793(_0x211675, _0x3b452d)
+  );
+}
+function _0x83ba() {
+  const _0x35f20e = [
+    "value",
+    "2974320CZdqlO",
+    "click",
+    "addEventListener",
+    "password",
+    "status",
+    "get",
+    "2349ssjAPv",
+    "tabs",
+    "https://192.168.1.254:8090/httpclient.html",
+    "local",
+    "getElementById",
+    "3508450XQJvPB",
+    "1908168tYBGao",
+    "textContent",
+    "52vRcmDs",
+    "create",
+    "4euqlzp",
+    "storage",
+    "1428948YuxdRU",
+    "7wEcudq",
+    "1420974GYjCvx",
+    "username",
+    "7411630kXprNW",
+    "Details\x20Saved!",
+    "DOMContentLoaded",
+  ];
+  _0x83ba = function () {
+    return _0x35f20e;
+  };
+  return _0x83ba();
+}
