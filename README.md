@@ -9,7 +9,7 @@ This is a simple Chrome extension to automatically log in to the ABES College Wi
 
 The latest version can be downloaded from the **Releases** page.
 
-**[>> Click Here to Download the Latest Version <<](https://github.com/ankitprj02/abes-wifi-autologin/releases/download/untagged-e8ea7d86a5d0cde2c312/ABES.WIFI.zip)**
+**[>> Click Here to Download the Latest Version <<](https://github.com/ankitprj02/abes-wifi-autologin/archive/refs/tags/v1.0.1.zip)**
 
 ---
 
