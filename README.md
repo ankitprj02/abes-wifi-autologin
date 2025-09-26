@@ -2,7 +2,7 @@
 
 This is a simple Chrome extension to automatically log in to the ABES College WiFi portal. It saves your credentials securely on your own computer and automates the sign-in process.
 
-![Screenshot of the extension popup](https://i.imgur.com/3sF6T1T.png) 
+![Screenshot of the extension popup](https://github.com/ankitprj02/abes-wifi-autologin/blob/main/Screenshot.jpg) 
 ---
 
 ## ⬇️ Download
